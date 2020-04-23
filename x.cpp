@@ -2,7 +2,7 @@
  * let dis[i] is the distance between node i and the nearest NPP node , use multisource dijkstra
  * loop through the nodes in decreasing order according to dis[node] , make yes[node] = 1 & merge it with the neighboring nodes u  with yes[u]=1 also 
  * we will try to build MST so we will just merge n-1 times with edges value the minmum between dis[u] , dis[v] 
- * build sparse table on the last tree , the answer to the query is the smallest value of a edge on the path from s to t 
+ * build sparse table on the last tree , the answer to the query is the smallest value of an edge on the path from s to t 
 */
 #define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
 #include <bits/stdc++.h>
